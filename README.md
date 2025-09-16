@@ -26,14 +26,14 @@ Penetration Tester (Capstone Simulation)
 5. Finally, I navigated the file system and retrieved the challenge flag.
 
 ## Key Findings
-​- The database was vulnerable to unauthenticated SQL injection.  
-​- The application used weak password hashes (MD5 with no salting).  
-​- The server allowed remote SSH login with the compromised credentials. 
+- The database was vulnerable to unauthenticated SQL injection.
+- The application used weak password hashes (MD5 with no salting).
+- The server allowed remote SSH login with the compromised credentials. 
  
 ## ​Remediation Recommendations
-​- Replace dynamic queries with prepared statements to prevent SQL injection.  
-​- Validate and sanitize all user inputs.  
-​- Restrict database permissions to only essential operations.  
+- Replace dynamic queries with prepared statements to prevent SQL injection.
+- Validate and sanitize all user inputs.
+- Restrict database permissions to only essential operations.  
 
 ## ​Personal Reflection
 ​This project was a fantastic demonstration of the "exploit chain." It taught me a valuable lesson that even a seemingly simple vulnerability like SQL injection can have a catastrophic impact when chained with other weaknesses. It highlighted the importance of robust input validation and secure coding practices from the start.
